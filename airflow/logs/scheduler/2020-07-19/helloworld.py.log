@@ -306,3 +306,605 @@
   DeprecationWarning)
 [2020-07-18 20:39:59,983] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
 [2020-07-18 20:39:59,999] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:31:23,892] {scheduler_job.py:155} INFO - Started process (PID=65580) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:31:23,897] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:31:23,898] {logging_mixin.py:112} INFO - [2020-07-18 21:31:23,898] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:31:23,903] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:31:23,905] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:31:23,925] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 21:32:17,999] {scheduler_job.py:155} INFO - Started process (PID=65644) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:32:18,005] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:32:18,006] {logging_mixin.py:112} INFO - [2020-07-18 21:32:18,005] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:32:18,010] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:32:18,012] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:32:18,031] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:33:12,119] {scheduler_job.py:155} INFO - Started process (PID=65714) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:33:12,124] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:33:12,126] {logging_mixin.py:112} INFO - [2020-07-18 21:33:12,125] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:33:12,130] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:33:12,132] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:33:12,151] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:34:06,236] {scheduler_job.py:155} INFO - Started process (PID=65795) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:34:06,243] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:34:06,245] {logging_mixin.py:112} INFO - [2020-07-18 21:34:06,244] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:34:06,250] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:34:06,252] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:34:06,282] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.046 seconds
+[2020-07-18 21:35:00,344] {scheduler_job.py:155} INFO - Started process (PID=65870) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:00,349] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:35:00,350] {logging_mixin.py:112} INFO - [2020-07-18 21:35:00,350] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:00,354] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:35:00,357] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:00,374] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:35:54,460] {scheduler_job.py:155} INFO - Started process (PID=65941) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:54,465] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:35:54,466] {logging_mixin.py:112} INFO - [2020-07-18 21:35:54,466] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:54,471] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:35:54,473] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:35:54,491] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:36:48,572] {scheduler_job.py:155} INFO - Started process (PID=66009) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:36:48,577] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:36:48,578] {logging_mixin.py:112} INFO - [2020-07-18 21:36:48,578] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:36:48,582] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:36:48,584] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:36:48,602] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:37:42,699] {scheduler_job.py:155} INFO - Started process (PID=66079) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:37:42,705] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:37:42,705] {logging_mixin.py:112} INFO - [2020-07-18 21:37:42,705] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:37:42,709] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:37:42,712] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:37:42,730] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:38:36,831] {scheduler_job.py:155} INFO - Started process (PID=66153) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:38:36,836] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:38:36,837] {logging_mixin.py:112} INFO - [2020-07-18 21:38:36,837] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:38:36,842] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:38:36,843] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:38:36,862] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:39:30,930] {scheduler_job.py:155} INFO - Started process (PID=66222) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:39:30,935] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:39:30,936] {logging_mixin.py:112} INFO - [2020-07-18 21:39:30,936] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:39:30,940] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:39:30,942] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:39:30,961] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:40:25,031] {scheduler_job.py:155} INFO - Started process (PID=66344) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:40:25,036] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:40:25,037] {logging_mixin.py:112} INFO - [2020-07-18 21:40:25,037] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:40:25,041] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:40:25,043] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:40:25,062] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:41:19,153] {scheduler_job.py:155} INFO - Started process (PID=66419) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:41:19,158] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:41:19,159] {logging_mixin.py:112} INFO - [2020-07-18 21:41:19,159] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:41:19,163] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:41:19,165] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:41:19,183] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:42:13,275] {scheduler_job.py:155} INFO - Started process (PID=66491) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:42:13,281] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:42:13,284] {logging_mixin.py:112} INFO - [2020-07-18 21:42:13,284] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:42:13,289] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:42:13,292] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:42:13,310] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 21:43:07,383] {scheduler_job.py:155} INFO - Started process (PID=66568) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:43:07,387] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:43:07,388] {logging_mixin.py:112} INFO - [2020-07-18 21:43:07,388] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:43:07,393] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:43:07,395] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:43:07,412] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.029 seconds
+[2020-07-18 21:44:01,482] {scheduler_job.py:155} INFO - Started process (PID=66635) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:01,487] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:44:01,488] {logging_mixin.py:112} INFO - [2020-07-18 21:44:01,488] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:01,492] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:44:01,494] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:01,513] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:44:55,605] {scheduler_job.py:155} INFO - Started process (PID=66708) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:55,610] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:44:55,611] {logging_mixin.py:112} INFO - [2020-07-18 21:44:55,611] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:55,615] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:44:55,617] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:44:55,636] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:45:49,724] {scheduler_job.py:155} INFO - Started process (PID=66799) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:45:49,729] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:45:49,730] {logging_mixin.py:112} INFO - [2020-07-18 21:45:49,730] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:45:49,735] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:45:49,737] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:45:49,755] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:46:43,859] {scheduler_job.py:155} INFO - Started process (PID=66868) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:46:43,864] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:46:43,865] {logging_mixin.py:112} INFO - [2020-07-18 21:46:43,864] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:46:43,869] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:46:43,872] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:46:43,892] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.034 seconds
+[2020-07-18 21:47:37,974] {scheduler_job.py:155} INFO - Started process (PID=66936) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:47:37,979] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:47:37,980] {logging_mixin.py:112} INFO - [2020-07-18 21:47:37,979] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:47:37,984] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:47:37,986] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:47:38,004] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:48:32,070] {scheduler_job.py:155} INFO - Started process (PID=67008) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:48:32,075] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:48:32,076] {logging_mixin.py:112} INFO - [2020-07-18 21:48:32,075] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:48:32,081] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:48:32,083] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:48:32,103] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 21:49:26,189] {scheduler_job.py:155} INFO - Started process (PID=67080) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:49:26,193] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:49:26,194] {logging_mixin.py:112} INFO - [2020-07-18 21:49:26,194] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:49:26,199] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:49:26,201] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:49:26,219] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:50:20,284] {scheduler_job.py:155} INFO - Started process (PID=67147) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:50:20,289] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:50:20,290] {logging_mixin.py:112} INFO - [2020-07-18 21:50:20,290] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:50:20,294] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:50:20,296] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:50:20,315] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:51:14,380] {scheduler_job.py:155} INFO - Started process (PID=67214) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:51:14,385] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:51:14,386] {logging_mixin.py:112} INFO - [2020-07-18 21:51:14,386] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:51:14,390] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:51:14,393] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:51:14,412] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:52:08,469] {scheduler_job.py:155} INFO - Started process (PID=67298) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:52:08,474] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:52:08,475] {logging_mixin.py:112} INFO - [2020-07-18 21:52:08,475] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:52:08,479] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:52:08,482] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:52:08,501] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:53:02,544] {scheduler_job.py:155} INFO - Started process (PID=67366) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:02,549] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:53:02,550] {logging_mixin.py:112} INFO - [2020-07-18 21:53:02,550] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:02,555] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:53:02,557] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:02,574] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:53:56,636] {scheduler_job.py:155} INFO - Started process (PID=67435) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:56,643] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:53:56,644] {logging_mixin.py:112} INFO - [2020-07-18 21:53:56,643] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:56,648] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:53:56,650] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:53:56,669] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 21:54:50,764] {scheduler_job.py:155} INFO - Started process (PID=67497) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:54:50,769] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:54:50,770] {logging_mixin.py:112} INFO - [2020-07-18 21:54:50,769] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:54:50,774] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:54:50,775] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:54:50,794] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 21:55:44,881] {scheduler_job.py:155} INFO - Started process (PID=67566) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:55:44,887] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:55:44,888] {logging_mixin.py:112} INFO - [2020-07-18 21:55:44,888] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:55:44,892] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:55:44,894] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:55:44,913] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:56:38,962] {scheduler_job.py:155} INFO - Started process (PID=67634) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:56:38,967] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:56:38,967] {logging_mixin.py:112} INFO - [2020-07-18 21:56:38,967] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:56:38,971] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:56:38,974] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:56:38,993] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:57:33,048] {scheduler_job.py:155} INFO - Started process (PID=67694) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:57:33,053] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:57:33,054] {logging_mixin.py:112} INFO - [2020-07-18 21:57:33,054] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:57:33,059] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:57:33,061] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:57:33,080] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 21:58:27,185] {scheduler_job.py:155} INFO - Started process (PID=67764) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:58:27,190] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:58:27,191] {logging_mixin.py:112} INFO - [2020-07-18 21:58:27,190] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:58:27,195] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:58:27,197] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:58:27,216] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 21:59:21,286] {scheduler_job.py:155} INFO - Started process (PID=67831) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:59:21,292] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 21:59:21,292] {logging_mixin.py:112} INFO - [2020-07-18 21:59:21,292] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:59:21,297] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 21:59:21,299] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 21:59:21,317] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 22:00:15,377] {scheduler_job.py:155} INFO - Started process (PID=67906) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:00:15,382] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:00:15,383] {logging_mixin.py:112} INFO - [2020-07-18 22:00:15,383] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:00:15,387] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:00:15,389] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:00:15,408] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 22:01:09,467] {scheduler_job.py:155} INFO - Started process (PID=67973) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:01:09,472] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:01:09,473] {logging_mixin.py:112} INFO - [2020-07-18 22:01:09,473] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:01:09,477] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:01:09,480] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:01:09,497] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 22:02:03,570] {scheduler_job.py:155} INFO - Started process (PID=68040) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:03,575] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:02:03,576] {logging_mixin.py:112} INFO - [2020-07-18 22:02:03,576] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:03,580] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:02:03,583] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:03,599] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.028 seconds
+[2020-07-18 22:02:57,642] {scheduler_job.py:155} INFO - Started process (PID=68108) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:57,647] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:02:57,648] {logging_mixin.py:112} INFO - [2020-07-18 22:02:57,647] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:57,652] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:02:57,654] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:02:57,672] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.030 seconds
+[2020-07-18 22:03:51,721] {scheduler_job.py:155} INFO - Started process (PID=68182) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:03:51,727] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:03:51,728] {logging_mixin.py:112} INFO - [2020-07-18 22:03:51,727] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:03:51,732] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:03:51,735] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:03:51,752] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.031 seconds
+[2020-07-18 22:04:45,830] {scheduler_job.py:155} INFO - Started process (PID=68254) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:04:45,836] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:04:45,837] {logging_mixin.py:112} INFO - [2020-07-18 22:04:45,836] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:04:45,841] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:04:45,843] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:04:45,863] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 22:05:39,939] {scheduler_job.py:155} INFO - Started process (PID=68348) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:05:39,944] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:05:39,944] {logging_mixin.py:112} INFO - [2020-07-18 22:05:39,944] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:05:39,948] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:05:39,950] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:05:39,967] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.028 seconds
+[2020-07-18 22:06:34,064] {scheduler_job.py:155} INFO - Started process (PID=68406) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:06:34,069] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:06:34,070] {logging_mixin.py:112} INFO - [2020-07-18 22:06:34,070] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:06:34,074] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:06:34,076] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:06:34,091] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.028 seconds
+[2020-07-18 22:07:28,181] {scheduler_job.py:155} INFO - Started process (PID=68478) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:07:28,188] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:07:28,189] {logging_mixin.py:112} INFO - [2020-07-18 22:07:28,188] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:07:28,193] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:07:28,195] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:07:28,213] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 22:08:22,315] {scheduler_job.py:155} INFO - Started process (PID=68545) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:08:22,320] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:08:22,321] {logging_mixin.py:112} INFO - [2020-07-18 22:08:22,321] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:08:22,327] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:08:22,329] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:08:22,347] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 22:09:16,436] {scheduler_job.py:155} INFO - Started process (PID=68604) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:09:16,441] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:09:16,443] {logging_mixin.py:112} INFO - [2020-07-18 22:09:16,442] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:09:16,447] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:09:16,449] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:09:16,468] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.032 seconds
+[2020-07-18 22:10:10,558] {scheduler_job.py:155} INFO - Started process (PID=68689) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:10:10,565] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:10:10,566] {logging_mixin.py:112} INFO - [2020-07-18 22:10:10,565] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:10:10,571] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:10:10,573] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:10:10,595] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:11:04,641] {scheduler_job.py:155} INFO - Started process (PID=68790) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:04,648] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:11:04,649] {logging_mixin.py:112} INFO - [2020-07-18 22:11:04,649] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:04,655] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:11:04,660] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:04,688] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.047 seconds
+[2020-07-18 22:11:58,763] {scheduler_job.py:155} INFO - Started process (PID=68876) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:58,770] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:11:58,772] {logging_mixin.py:112} INFO - [2020-07-18 22:11:58,771] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:58,778] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:11:58,782] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:11:58,806] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.044 seconds
+[2020-07-18 22:12:52,887] {scheduler_job.py:155} INFO - Started process (PID=68943) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:12:52,894] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:12:52,895] {logging_mixin.py:112} INFO - [2020-07-18 22:12:52,894] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:12:52,900] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:12:52,903] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:12:52,922] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 22:13:46,976] {scheduler_job.py:155} INFO - Started process (PID=69003) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:13:46,982] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:13:46,984] {logging_mixin.py:112} INFO - [2020-07-18 22:13:46,983] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:13:46,989] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:13:46,992] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:13:47,011] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:14:41,072] {scheduler_job.py:155} INFO - Started process (PID=69076) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:14:41,079] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:14:41,081] {logging_mixin.py:112} INFO - [2020-07-18 22:14:41,080] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:14:41,086] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:14:41,089] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:14:41,113] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.041 seconds
+[2020-07-18 22:15:35,180] {scheduler_job.py:155} INFO - Started process (PID=69135) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:15:35,187] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:15:35,188] {logging_mixin.py:112} INFO - [2020-07-18 22:15:35,188] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:15:35,193] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:15:35,195] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:15:35,216] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:16:29,261] {scheduler_job.py:155} INFO - Started process (PID=69204) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:16:29,266] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:16:29,267] {logging_mixin.py:112} INFO - [2020-07-18 22:16:29,267] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:16:29,271] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:16:29,274] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:16:29,294] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 22:17:23,371] {scheduler_job.py:155} INFO - Started process (PID=69272) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:17:23,377] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:17:23,378] {logging_mixin.py:112} INFO - [2020-07-18 22:17:23,378] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:17:23,383] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:17:23,386] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:17:23,409] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.038 seconds
+[2020-07-18 22:18:17,462] {scheduler_job.py:155} INFO - Started process (PID=69336) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:18:17,468] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:18:17,470] {logging_mixin.py:112} INFO - [2020-07-18 22:18:17,469] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:18:17,476] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:18:17,480] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:18:17,500] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.038 seconds
+[2020-07-18 22:19:11,550] {scheduler_job.py:155} INFO - Started process (PID=69406) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:19:11,557] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:19:11,558] {logging_mixin.py:112} INFO - [2020-07-18 22:19:11,558] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:19:11,563] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:19:11,567] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:19:11,588] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.038 seconds
+[2020-07-18 22:20:05,647] {scheduler_job.py:155} INFO - Started process (PID=69487) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:05,655] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:20:05,656] {logging_mixin.py:112} INFO - [2020-07-18 22:20:05,655] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:05,663] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:20:05,666] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:05,693] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.046 seconds
+[2020-07-18 22:20:59,750] {scheduler_job.py:155} INFO - Started process (PID=69568) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:59,761] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:20:59,763] {logging_mixin.py:112} INFO - [2020-07-18 22:20:59,762] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:59,770] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:20:59,774] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:20:59,800] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.051 seconds
+[2020-07-18 22:21:53,815] {scheduler_job.py:155} INFO - Started process (PID=69644) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:21:53,822] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:21:53,823] {logging_mixin.py:112} INFO - [2020-07-18 22:21:53,823] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:21:53,829] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:21:53,834] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:21:53,858] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.044 seconds
+[2020-07-18 22:22:47,910] {scheduler_job.py:155} INFO - Started process (PID=69705) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:22:47,918] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:22:47,920] {logging_mixin.py:112} INFO - [2020-07-18 22:22:47,919] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:22:47,927] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:22:47,930] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:22:47,958] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.048 seconds
+[2020-07-18 22:23:41,994] {scheduler_job.py:155} INFO - Started process (PID=69776) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:23:42,001] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:23:42,002] {logging_mixin.py:112} INFO - [2020-07-18 22:23:42,001] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:23:42,008] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:23:42,011] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:23:42,035] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.041 seconds
+[2020-07-18 22:24:36,106] {scheduler_job.py:155} INFO - Started process (PID=69848) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:24:36,124] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:24:36,129] {logging_mixin.py:112} INFO - [2020-07-18 22:24:36,127] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:24:36,146] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:24:36,152] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:24:36,191] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.086 seconds
+[2020-07-18 22:25:30,207] {scheduler_job.py:155} INFO - Started process (PID=69926) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:25:30,218] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:25:30,220] {logging_mixin.py:112} INFO - [2020-07-18 22:25:30,219] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:25:30,227] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:25:30,231] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:25:30,261] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.054 seconds
+[2020-07-18 22:26:24,289] {scheduler_job.py:155} INFO - Started process (PID=70004) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:26:24,299] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:26:24,300] {logging_mixin.py:112} INFO - [2020-07-18 22:26:24,300] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:26:24,307] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:26:24,311] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:26:24,335] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.046 seconds
+[2020-07-18 22:27:18,391] {scheduler_job.py:155} INFO - Started process (PID=70062) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:27:18,401] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:27:18,402] {logging_mixin.py:112} INFO - [2020-07-18 22:27:18,402] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:27:18,409] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:27:18,413] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:27:18,434] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.043 seconds
+[2020-07-18 22:28:12,455] {scheduler_job.py:155} INFO - Started process (PID=70131) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:28:12,463] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:28:12,465] {logging_mixin.py:112} INFO - [2020-07-18 22:28:12,464] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:28:12,471] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:28:12,474] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:28:12,499] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.044 seconds
+[2020-07-18 22:29:06,541] {scheduler_job.py:155} INFO - Started process (PID=70200) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:29:06,550] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:29:06,551] {logging_mixin.py:112} INFO - [2020-07-18 22:29:06,551] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:29:06,558] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:29:06,563] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:29:06,594] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.053 seconds
+[2020-07-18 22:30:00,641] {scheduler_job.py:155} INFO - Started process (PID=70270) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:00,651] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:30:00,652] {logging_mixin.py:112} INFO - [2020-07-18 22:30:00,651] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:00,658] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:30:00,662] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:00,690] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.049 seconds
+[2020-07-18 22:30:54,724] {scheduler_job.py:155} INFO - Started process (PID=70357) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:54,730] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:30:54,732] {logging_mixin.py:112} INFO - [2020-07-18 22:30:54,731] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:54,737] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:30:54,740] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:30:54,761] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:31:48,832] {scheduler_job.py:155} INFO - Started process (PID=70423) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:31:48,838] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:31:48,839] {logging_mixin.py:112} INFO - [2020-07-18 22:31:48,839] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:31:48,843] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:31:48,846] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:31:48,868] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:32:42,920] {scheduler_job.py:155} INFO - Started process (PID=70498) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:32:42,926] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:32:42,927] {logging_mixin.py:112} INFO - [2020-07-18 22:32:42,926] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:32:42,932] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:32:42,934] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:32:42,955] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 22:33:37,004] {scheduler_job.py:155} INFO - Started process (PID=70575) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:33:37,009] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:33:37,010] {logging_mixin.py:112} INFO - [2020-07-18 22:33:37,010] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:33:37,016] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:33:37,019] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:33:37,038] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 22:34:31,080] {scheduler_job.py:155} INFO - Started process (PID=70659) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:34:31,087] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:34:31,088] {logging_mixin.py:112} INFO - [2020-07-18 22:34:31,087] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:34:31,093] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:34:31,095] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:34:31,117] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.037 seconds
+[2020-07-18 22:35:25,169] {scheduler_job.py:155} INFO - Started process (PID=70738) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:35:25,174] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:35:25,176] {logging_mixin.py:112} INFO - [2020-07-18 22:35:25,175] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:35:25,180] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:35:25,182] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:35:25,203] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.034 seconds
+[2020-07-18 22:36:19,280] {scheduler_job.py:155} INFO - Started process (PID=70797) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:36:19,286] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:36:19,287] {logging_mixin.py:112} INFO - [2020-07-18 22:36:19,287] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:36:19,292] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:36:19,294] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:36:19,316] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:37:13,376] {scheduler_job.py:155} INFO - Started process (PID=70874) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:37:13,384] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:37:13,385] {logging_mixin.py:112} INFO - [2020-07-18 22:37:13,384] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:37:13,391] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:37:13,395] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:37:13,419] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.043 seconds
+[2020-07-18 22:38:07,487] {scheduler_job.py:155} INFO - Started process (PID=70939) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:38:07,495] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:38:07,496] {logging_mixin.py:112} INFO - [2020-07-18 22:38:07,495] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:38:07,501] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:38:07,503] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:38:07,523] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:39:01,577] {scheduler_job.py:155} INFO - Started process (PID=70997) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:01,583] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:39:01,584] {logging_mixin.py:112} INFO - [2020-07-18 22:39:01,583] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:01,588] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:39:01,590] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:01,611] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.034 seconds
+[2020-07-18 22:39:55,645] {scheduler_job.py:155} INFO - Started process (PID=71067) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:55,651] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:39:55,652] {logging_mixin.py:112} INFO - [2020-07-18 22:39:55,652] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:55,657] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:39:55,659] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:39:55,683] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.038 seconds
+[2020-07-18 22:40:49,754] {scheduler_job.py:155} INFO - Started process (PID=71146) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:40:49,760] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:40:49,761] {logging_mixin.py:112} INFO - [2020-07-18 22:40:49,761] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:40:49,766] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:40:49,770] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:40:49,790] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:41:43,847] {scheduler_job.py:155} INFO - Started process (PID=71230) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:41:43,854] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:41:43,855] {logging_mixin.py:112} INFO - [2020-07-18 22:41:43,855] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:41:43,861] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:41:43,864] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:41:43,882] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.036 seconds
+[2020-07-18 22:42:37,957] {scheduler_job.py:155} INFO - Started process (PID=71309) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:42:37,965] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:42:37,966] {logging_mixin.py:112} INFO - [2020-07-18 22:42:37,965] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:42:37,971] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:42:37,973] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:42:37,992] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 22:43:32,049] {scheduler_job.py:155} INFO - Started process (PID=71369) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:43:32,056] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:43:32,057] {logging_mixin.py:112} INFO - [2020-07-18 22:43:32,056] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:43:32,062] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:43:32,064] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:43:32,083] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.033 seconds
+[2020-07-18 22:44:26,187] {scheduler_job.py:155} INFO - Started process (PID=71439) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:44:26,194] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:44:26,195] {logging_mixin.py:112} INFO - [2020-07-18 22:44:26,195] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:44:26,200] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:44:26,203] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:44:26,222] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.034 seconds
+[2020-07-18 22:45:20,312] {scheduler_job.py:155} INFO - Started process (PID=71505) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:45:20,319] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:45:20,321] {logging_mixin.py:112} INFO - [2020-07-18 22:45:20,320] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:45:20,328] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:45:20,331] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:45:20,353] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.041 seconds
+[2020-07-18 22:46:14,397] {scheduler_job.py:155} INFO - Started process (PID=71576) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:46:14,406] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:46:14,407] {logging_mixin.py:112} INFO - [2020-07-18 22:46:14,407] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:46:14,412] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:46:14,416] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:46:14,437] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.040 seconds
+[2020-07-18 22:47:08,500] {scheduler_job.py:155} INFO - Started process (PID=71646) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:47:08,506] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:47:08,507] {logging_mixin.py:112} INFO - [2020-07-18 22:47:08,507] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:47:08,512] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:47:08,515] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:47:08,535] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.035 seconds
+[2020-07-18 22:48:02,592] {scheduler_job.py:155} INFO - Started process (PID=71715) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:48:02,600] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py for tasks to queue
+[2020-07-18 22:48:02,601] {logging_mixin.py:112} INFO - [2020-07-18 22:48:02,600] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:48:02,606] {logging_mixin.py:112} WARNING - /Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/helpers.py:442: DeprecationWarning: Importing 'BashOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  DeprecationWarning)
+[2020-07-18 22:48:02,609] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['Helloworld']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py
+[2020-07-18 22:48:02,628] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/helloworld.py took 0.037 seconds
