@@ -4,6 +4,7 @@ services:
     build: .
     ports:
       - "8080:8080"
+    network_mode : "host"
     environment:
       - DB_HOST=docker.for.mac.host.internal
       - EXECUTION_ID=444444

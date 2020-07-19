@@ -7,7 +7,6 @@ MAINTAINER Andre Mendes <email>
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-ENV EXECUTION_ID 111111
 
 RUN ipython kernel install --user --name=venv-kensho-raw-to-db
 
