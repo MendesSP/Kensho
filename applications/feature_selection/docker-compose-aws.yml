@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    network_mode: 'host'
+    environment:
+      - EXECUTION_ID=444444
+    volumes:
+      - /Kensho/applications/feature_selection/notebooks:/notebooks

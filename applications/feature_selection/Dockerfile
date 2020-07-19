@@ -7,9 +7,6 @@ MAINTAINER Andre Mendes <email>
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
-ENV EXECUTION_ID 111111
-ENV DB_HOST docker.for.mac.host.internal 
-
 RUN ipython kernel install --user --name=venv-kensho-feature-selection
 
 RUN mkdir notebooks
