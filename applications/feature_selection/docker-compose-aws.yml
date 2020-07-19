@@ -8,4 +8,4 @@ services:
     environment:
       - EXECUTION_ID=444444
     volumes:
-      - /Kensho/applications/feature_selection/notebooks:/notebooks
+      - /home/ec2-user/Kensho/applications/feature_selection/notebooks:/notebooks
