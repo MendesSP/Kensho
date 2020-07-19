@@ -1,0 +1,86 @@
+[2020-07-18 20:02:58,354] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.preprocess_train 2020-07-18T00:00:00+00:00 [queued]>
+[2020-07-18 20:02:58,364] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.preprocess_train 2020-07-18T00:00:00+00:00 [queued]>
+[2020-07-18 20:02:58,364] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 20:02:58,365] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-07-18 20:02:58,365] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 20:02:58,371] {taskinstance.py:901} INFO - Executing <Task(DockerOperator): preprocess_train> on 2020-07-18T00:00:00+00:00
+[2020-07-18 20:02:58,373] {standard_task_runner.py:54} INFO - Started process 58556 to run task
+[2020-07-18 20:02:58,399] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'etl_preprocessing', 'preprocess_train', '2020-07-18T00:00:00+00:00', '--job_id', '83', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/elt_preprocessing.py', '--cfg_path', '/var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/tmpjq03jo_4']
+[2020-07-18 20:02:58,400] {standard_task_runner.py:78} INFO - Job 83: Subtask preprocess_train
+[2020-07-18 20:02:58,425] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: etl_preprocessing.preprocess_train 2020-07-18T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-07-18 20:02:58,574] {docker_operator.py:210} INFO - Starting docker container from image feature_selection_web:latest
+[2020-07-18 20:02:59,173] {docker_operator.py:243} INFO - Input Notebook:  notebooks/feature_selection.ipynb
+[2020-07-18 20:02:59,174] {docker_operator.py:243} INFO - Output Notebook: notebooks/output/code_exec_111111.ipynb
+[2020-07-18 20:03:00,107] {docker_operator.py:243} INFO - Executing notebook with kernel: venv-kensho-feature-selection
+Executing Cell 1---------------------------------------
+[2020-07-18 20:03:00,126] {docker_operator.py:243} INFO - Ending Cell 1------------------------------------------
+[2020-07-18 20:03:00,139] {docker_operator.py:243} INFO - Executing Cell 2---------------------------------------
+[2020-07-18 20:03:00,157] {docker_operator.py:243} INFO - name of the variable:docker.for.mac.host.internal
+[2020-07-18 20:03:00,160] {docker_operator.py:243} INFO - Ending Cell 2------------------------------------------
+[2020-07-18 20:03:00,174] {docker_operator.py:243} INFO - Executing Cell 3---------------------------------------
+[2020-07-18 20:03:00,187] {docker_operator.py:243} INFO - Ending Cell 3------------------------------------------
+[2020-07-18 20:03:00,201] {docker_operator.py:243} INFO - Executing Cell 4---------------------------------------
+[2020-07-18 20:03:00,226] {docker_operator.py:243} INFO - '/'
+[2020-07-18 20:03:00,229] {docker_operator.py:243} INFO - Ending Cell 4------------------------------------------
+[2020-07-18 20:03:00,244] {docker_operator.py:243} INFO - Executing Cell 5---------------------------------------
+[2020-07-18 20:03:00,257] {docker_operator.py:243} INFO - Ending Cell 5------------------------------------------
+[2020-07-18 20:03:00,272] {docker_operator.py:243} INFO - Executing Cell 6---------------------------------------
+[2020-07-18 20:03:00,285] {docker_operator.py:243} INFO - Ending Cell 6------------------------------------------
+[2020-07-18 20:03:00,298] {docker_operator.py:243} INFO - Executing Cell 7---------------------------------------
+[2020-07-18 20:03:01,062] {docker_operator.py:243} INFO - Ending Cell 7------------------------------------------
+[2020-07-18 20:03:01,077] {docker_operator.py:243} INFO - Executing Cell 8---------------------------------------
+[2020-07-18 20:03:01,090] {docker_operator.py:243} INFO - Ending Cell 8------------------------------------------
+[2020-07-18 20:03:01,105] {docker_operator.py:243} INFO - Executing Cell 9---------------------------------------
+[2020-07-18 20:03:01,130] {docker_operator.py:243} INFO - Ending Cell 9------------------------------------------
+[2020-07-18 20:03:01,145] {docker_operator.py:243} INFO - Executing Cell 10--------------------------------------
+[2020-07-18 20:03:01,159] {docker_operator.py:243} INFO - Ending Cell 10-----------------------------------------
+[2020-07-18 20:03:01,174] {docker_operator.py:243} INFO - Executing Cell 11--------------------------------------
+[2020-07-18 20:03:01,694] {docker_operator.py:243} INFO - docker.for.mac.host.internal
+[2020-07-18 20:03:01,800] {docker_operator.py:243} INFO - Ending Cell 11-----------------------------------------
+[2020-07-18 20:03:01,815] {docker_operator.py:243} INFO - Executing Cell 12--------------------------------------
+[2020-07-18 20:03:01,831] {docker_operator.py:243} INFO - Ending Cell 12-----------------------------------------
+[2020-07-18 20:03:01,847] {docker_operator.py:243} INFO - Executing Cell 13--------------------------------------
+[2020-07-18 20:03:01,896] {docker_operator.py:243} INFO - name of the variable inside function:docker.for.mac.host.internal
+[2020-07-18 20:03:01,900] {docker_operator.py:243} INFO - Ending Cell 13-----------------------------------------
+[2020-07-18 20:03:01,914] {docker_operator.py:243} INFO - Executing Cell 14--------------------------------------
+[2020-07-18 20:03:01,929] {docker_operator.py:243} INFO - Ending Cell 14-----------------------------------------
+[2020-07-18 20:03:01,945] {docker_operator.py:243} INFO - Executing Cell 15--------------------------------------
+[2020-07-18 20:03:02,052] {docker_operator.py:243} INFO - Ending Cell 15-----------------------------------------
+[2020-07-18 20:03:02,067] {docker_operator.py:243} INFO - Executing Cell 16--------------------------------------
+[2020-07-18 20:03:02,092] {docker_operator.py:243} INFO - Ending Cell 16-----------------------------------------
+[2020-07-18 20:03:02,108] {docker_operator.py:243} INFO - Executing Cell 17--------------------------------------
+[2020-07-18 20:03:02,134] {docker_operator.py:243} INFO - THIS IS THE:///notebooks/
+[2020-07-18 20:03:02,137] {docker_operator.py:243} INFO - Ending Cell 17-----------------------------------------
+[2020-07-18 20:03:02,152] {docker_operator.py:243} INFO - Executing Cell 18--------------------------------------
+[2020-07-18 20:03:02,175] {docker_operator.py:243} INFO - '///notebooks/'
+[2020-07-18 20:03:02,178] {docker_operator.py:243} INFO - Ending Cell 18-----------------------------------------
+[2020-07-18 20:03:02,193] {docker_operator.py:243} INFO - Executing Cell 19--------------------------------------
+[2020-07-18 20:03:02,730] {docker_operator.py:243} INFO - feature_selection.ipynb  label_encoder.p  [0m[01;34moutput[0m/
+[2020-07-18 20:03:02,838] {docker_operator.py:243} INFO - Ending Cell 19-----------------------------------------
+[2020-07-18 20:03:02,854] {docker_operator.py:243} INFO - Executing Cell 20--------------------------------------
+[2020-07-18 20:03:03,046] {docker_operator.py:243} INFO - Ending Cell 20-----------------------------------------
+[2020-07-18 20:03:03,062] {docker_operator.py:243} INFO - Executing Cell 21--------------------------------------
+[2020-07-18 20:03:03,087] {docker_operator.py:243} INFO - worked feature selection using . test
+[2020-07-18 20:03:03,090] {docker_operator.py:243} INFO - Ending Cell 21-----------------------------------------
+[2020-07-18 20:03:03,107] {docker_operator.py:243} INFO - Executing Cell 22--------------------------------------
+[2020-07-18 20:03:03,142] {docker_operator.py:243} INFO - sepal_length  sepal_width  petal_length  petal_width  label
+0              5.1          3.5           1.4          0.2      0
+1              4.9          3.0           1.4          0.2      0
+2              4.7          3.2           1.3          0.2      0
+3              4.6          3.1           1.5          0.2      0
+4              5.0          3.6           1.4          0.2      0
+...            ...          ...           ...          ...    ...
+1345           6.7          3.0           5.2          2.3      2
+1346           6.3          2.5           5.0          1.9      2
+1347           6.5          3.0           5.2          2.0      2
+1348           6.2          3.4           5.4          2.3      2
+1349           5.9          3.0           5.1          1.8      2
+
+[1350 rows x 5 columns]
+[2020-07-18 20:03:03,144] {docker_operator.py:243} INFO - Ending Cell 22-----------------------------------------
+[2020-07-18 20:03:03,162] {docker_operator.py:243} INFO - Executing Cell 23--------------------------------------
+[2020-07-18 20:03:03,180] {docker_operator.py:243} INFO - Ending Cell 23-----------------------------------------
+[2020-07-18 20:03:03,795] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=etl_preprocessing, task_id=preprocess_train, execution_date=20200718T000000, start_date=20200719T000258, end_date=20200719T000303
+[2020-07-18 20:03:08,352] {local_task_job.py:102} INFO - Task exited with return code 0

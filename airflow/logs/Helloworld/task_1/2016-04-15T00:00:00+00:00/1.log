@@ -1,0 +1,21 @@
+[2020-07-18 15:48:52,338] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Helloworld.task_1 2016-04-15T00:00:00+00:00 [queued]>
+[2020-07-18 15:48:52,344] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Helloworld.task_1 2016-04-15T00:00:00+00:00 [queued]>
+[2020-07-18 15:48:52,344] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 15:48:52,344] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-07-18 15:48:52,344] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 15:48:52,350] {taskinstance.py:901} INFO - Executing <Task(BashOperator): task_1> on 2016-04-15T00:00:00+00:00
+[2020-07-18 15:48:52,352] {standard_task_runner.py:54} INFO - Started process 37704 to run task
+[2020-07-18 15:48:52,376] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Helloworld', 'task_1', '2016-04-15T00:00:00+00:00', '--job_id', '3', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/helloworld.py', '--cfg_path', '/var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/tmpqulufvo3']
+[2020-07-18 15:48:52,377] {standard_task_runner.py:78} INFO - Job 3: Subtask task_1
+[2020-07-18 15:48:52,401] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Helloworld.task_1 2016-04-15T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-07-18 15:48:52,417] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T
+[2020-07-18 15:48:52,418] {bash_operator.py:136} INFO - Temporary script location: /var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/airflowtmpy1w40hwp/task_1kmguslow
+[2020-07-18 15:48:52,418] {bash_operator.py:146} INFO - Running command: echo "Hello World from Task 1"
+[2020-07-18 15:48:52,423] {bash_operator.py:153} INFO - Output:
+[2020-07-18 15:48:52,425] {bash_operator.py:157} INFO - Hello World from Task 1
+[2020-07-18 15:48:52,426] {bash_operator.py:161} INFO - Command exited with return code 0
+[2020-07-18 15:48:52,431] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=Helloworld, task_id=task_1, execution_date=20160415T000000, start_date=20200718T194852, end_date=20200718T194852
+[2020-07-18 15:48:57,339] {local_task_job.py:102} INFO - Task exited with return code 0

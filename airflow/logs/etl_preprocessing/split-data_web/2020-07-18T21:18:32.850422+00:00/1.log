@@ -1,0 +1,49 @@
+[2020-07-18 17:19:28,943] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.split-data_web 2020-07-18T21:18:32.850422+00:00 [queued]>
+[2020-07-18 17:19:28,949] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.split-data_web 2020-07-18T21:18:32.850422+00:00 [queued]>
+[2020-07-18 17:19:28,949] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:19:28,949] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-07-18 17:19:28,949] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:19:28,954] {taskinstance.py:901} INFO - Executing <Task(DockerOperator): split-data_web> on 2020-07-18T21:18:32.850422+00:00
+[2020-07-18 17:19:28,956] {standard_task_runner.py:54} INFO - Started process 44820 to run task
+[2020-07-18 17:19:28,981] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'etl_preprocessing', 'split-data_web', '2020-07-18T21:18:32.850422+00:00', '--job_id', '65', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/elt_preprocessing.py', '--cfg_path', '/var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/tmpb_j3tn46']
+[2020-07-18 17:19:28,982] {standard_task_runner.py:78} INFO - Job 65: Subtask split-data_web
+[2020-07-18 17:19:29,006] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: etl_preprocessing.split-data_web 2020-07-18T21:18:32.850422+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-07-18 17:19:29,127] {docker_operator.py:210} INFO - Starting docker container from image split_data_web:latest
+[2020-07-18 17:19:29,705] {docker_operator.py:243} INFO - Input Notebook:  notebooks/split_data.ipynb
+Output Notebook: notebooks/output/code_exec_111111.ipynb
+[2020-07-18 17:19:30,738] {docker_operator.py:243} INFO - Executing notebook with kernel: venv-kensho-split-data
+Executing Cell 1---------------------------------------
+[2020-07-18 17:19:30,749] {docker_operator.py:243} INFO - Ending Cell 1------------------------------------------
+[2020-07-18 17:19:30,758] {docker_operator.py:243} INFO - Executing Cell 2---------------------------------------
+[2020-07-18 17:19:30,766] {docker_operator.py:243} INFO - Ending Cell 2------------------------------------------
+[2020-07-18 17:19:30,773] {docker_operator.py:243} INFO - Executing Cell 3---------------------------------------
+[2020-07-18 17:19:30,782] {docker_operator.py:243} INFO - Ending Cell 3------------------------------------------
+[2020-07-18 17:19:30,790] {docker_operator.py:243} INFO - Executing Cell 4---------------------------------------
+[2020-07-18 17:19:31,163] {docker_operator.py:243} INFO - Ending Cell 4------------------------------------------
+[2020-07-18 17:19:31,171] {docker_operator.py:243} INFO - Executing Cell 5---------------------------------------
+[2020-07-18 17:19:31,180] {docker_operator.py:243} INFO - Ending Cell 5------------------------------------------
+[2020-07-18 17:19:31,189] {docker_operator.py:243} INFO - Executing Cell 6---------------------------------------
+[2020-07-18 17:19:31,197] {docker_operator.py:243} INFO - Ending Cell 6------------------------------------------
+[2020-07-18 17:19:31,205] {docker_operator.py:243} INFO - Executing Cell 7---------------------------------------
+[2020-07-18 17:19:31,214] {docker_operator.py:243} INFO - Ending Cell 7------------------------------------------
+[2020-07-18 17:19:31,223] {docker_operator.py:243} INFO - Executing Cell 8---------------------------------------
+[2020-07-18 17:19:31,231] {docker_operator.py:243} INFO - Ending Cell 8------------------------------------------
+[2020-07-18 17:19:31,240] {docker_operator.py:243} INFO - Executing Cell 9---------------------------------------
+[2020-07-18 17:19:31,249] {docker_operator.py:243} INFO - Ending Cell 9------------------------------------------
+[2020-07-18 17:19:31,257] {docker_operator.py:243} INFO - Executing Cell 10--------------------------------------
+[2020-07-18 17:19:31,265] {docker_operator.py:243} INFO - Ending Cell 10-----------------------------------------
+[2020-07-18 17:19:31,273] {docker_operator.py:243} INFO - Executing Cell 11--------------------------------------
+[2020-07-18 17:19:31,313] {docker_operator.py:243} INFO - Ending Cell 11-----------------------------------------
+[2020-07-18 17:19:31,322] {docker_operator.py:243} INFO - Executing Cell 12--------------------------------------
+[2020-07-18 17:19:31,331] {docker_operator.py:243} INFO - Ending Cell 12-----------------------------------------
+[2020-07-18 17:19:31,339] {docker_operator.py:243} INFO - Executing Cell 13--------------------------------------
+[2020-07-18 17:19:31,407] {docker_operator.py:243} INFO - Ending Cell 13-----------------------------------------
+[2020-07-18 17:19:31,417] {docker_operator.py:243} INFO - Executing Cell 14--------------------------------------
+[2020-07-18 17:19:31,432] {docker_operator.py:243} INFO - worked sql_data
+[2020-07-18 17:19:31,435] {docker_operator.py:243} INFO - Ending Cell 14-----------------------------------------
+[2020-07-18 17:19:31,444] {docker_operator.py:243} INFO - Executing Cell 15--------------------------------------
+[2020-07-18 17:19:31,454] {docker_operator.py:243} INFO - Ending Cell 15-----------------------------------------
+[2020-07-18 17:19:32,058] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=etl_preprocessing, task_id=split-data_web, execution_date=20200718T211832, start_date=20200718T211928, end_date=20200718T211932
+[2020-07-18 17:19:33,941] {local_task_job.py:102} INFO - Task exited with return code 0

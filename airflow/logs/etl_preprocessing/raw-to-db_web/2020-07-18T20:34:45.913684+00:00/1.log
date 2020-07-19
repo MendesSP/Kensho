@@ -1,0 +1,462 @@
+[2020-07-18 16:36:29,175] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.raw-to-db_web 2020-07-18T20:34:45.913684+00:00 [queued]>
+[2020-07-18 16:36:29,183] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.raw-to-db_web 2020-07-18T20:34:45.913684+00:00 [queued]>
+[2020-07-18 16:36:29,183] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 16:36:29,183] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-07-18 16:36:29,183] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 16:36:29,189] {taskinstance.py:901} INFO - Executing <Task(DockerOperator): raw-to-db_web> on 2020-07-18T20:34:45.913684+00:00
+[2020-07-18 16:36:29,192] {standard_task_runner.py:54} INFO - Started process 41516 to run task
+[2020-07-18 16:36:29,217] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'etl_preprocessing', 'raw-to-db_web', '2020-07-18T20:34:45.913684+00:00', '--job_id', '51', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/elt_preprocessing.py', '--cfg_path', '/var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/tmpfh40nrkw']
+[2020-07-18 16:36:29,219] {standard_task_runner.py:78} INFO - Job 51: Subtask raw-to-db_web
+[2020-07-18 16:36:29,246] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: etl_preprocessing.raw-to-db_web 2020-07-18T20:34:45.913684+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-07-18 16:36:29,354] {docker_operator.py:210} INFO - Starting docker container from image raw_to_db:latest
+[2020-07-18 16:36:29,953] {docker_operator.py:243} INFO - Input Notebook:  notebooks/raw_to_sql.ipynb
+Output Notebook: notebooks/output/raw_to_sql_exec_111111.ipynb
+[2020-07-18 16:36:30,873] {docker_operator.py:243} INFO - Executing notebook with kernel: venv-kensho-raw-to-db
+Executing Cell 1---------------------------------------
+[2020-07-18 16:36:30,885] {docker_operator.py:243} INFO - Ending Cell 1------------------------------------------
+[2020-07-18 16:36:30,895] {docker_operator.py:243} INFO - Executing Cell 2---------------------------------------
+[2020-07-18 16:36:30,905] {docker_operator.py:243} INFO - Ending Cell 2------------------------------------------
+[2020-07-18 16:36:30,914] {docker_operator.py:243} INFO - Executing Cell 3---------------------------------------
+[2020-07-18 16:36:30,925] {docker_operator.py:243} INFO - Ending Cell 3------------------------------------------
+[2020-07-18 16:36:30,935] {docker_operator.py:243} INFO - Executing Cell 4---------------------------------------
+[2020-07-18 16:36:31,228] {docker_operator.py:243} INFO - Ending Cell 4------------------------------------------
+[2020-07-18 16:36:31,239] {docker_operator.py:243} INFO - Executing Cell 5---------------------------------------
+[2020-07-18 16:36:31,250] {docker_operator.py:243} INFO - Ending Cell 5------------------------------------------
+[2020-07-18 16:36:31,261] {docker_operator.py:243} INFO - Executing Cell 6---------------------------------------
+[2020-07-18 16:36:31,272] {docker_operator.py:243} INFO - Ending Cell 6------------------------------------------
+[2020-07-18 16:36:31,281] {docker_operator.py:243} INFO - Executing Cell 7---------------------------------------
+[2020-07-18 16:36:31,292] {docker_operator.py:243} INFO - Ending Cell 7------------------------------------------
+[2020-07-18 16:36:31,303] {docker_operator.py:243} INFO - Executing Cell 8---------------------------------------
+[2020-07-18 16:36:31,322] {docker_operator.py:243} INFO - Ending Cell 8------------------------------------------
+[2020-07-18 16:36:31,332] {docker_operator.py:243} INFO - Executing Cell 9---------------------------------------
+[2020-07-18 16:36:31,342] {docker_operator.py:243} INFO - Ending Cell 9------------------------------------------
+[2020-07-18 16:36:31,354] {docker_operator.py:243} INFO - Executing Cell 10--------------------------------------
+[2020-07-18 16:36:31,396] {docker_operator.py:243} INFO - sepal_length  sepal_width  petal_length  petal_width species  \
+0           5.1          3.5           1.4          0.2  setosa   
+1           4.9          3.0           1.4          0.2  setosa   
+2           4.7          3.2           1.3          0.2  setosa   
+3           4.6          3.1           1.5          0.2  setosa   
+4           5.0          3.6           1.4          0.2  setosa   
+
+                   timestamp  
+0 2020-07-18 20:36:31.378670  
+1 2020-07-18 20:36:31.378670  
+2 2020-07-18 20:36:31.378670  
+3 2020-07-18 20:36:31.378670  
+4 2020-07-18 20:36:31.378670
+[2020-07-18 16:36:31,397] {docker_operator.py:243} INFO - Ending Cell 10-----------------------------------------
+[2020-07-18 16:36:31,408] {docker_operator.py:243} INFO - Executing Cell 11--------------------------------------
+[2020-07-18 16:36:31,419] {docker_operator.py:243} INFO - Ending Cell 11-----------------------------------------
+[2020-07-18 16:36:31,431] {docker_operator.py:243} INFO - Executing Cell 12--------------------------------------
+[2020-07-18 16:36:31,442] {docker_operator.py:243} INFO - Ending Cell 12-----------------------------------------
+[2020-07-18 16:36:31,453] {docker_operator.py:243} INFO - Executing Cell 13--------------------------------------
+[2020-07-18 16:36:31,473] {docker_operator.py:243} INFO - Ending Cell 13-----------------------------------------
+[2020-07-18 16:36:31,484] {docker_operator.py:243} INFO - Executing Cell 14--------------------------------------
+[2020-07-18 16:36:31,601] {docker_operator.py:243} INFO - Ending Cell 14-----------------------------------------
+[2020-07-18 16:36:31,612] {docker_operator.py:243} INFO - Executing Cell 15--------------------------------------
+[2020-07-18 16:36:31,630] {docker_operator.py:243} INFO - localhost
+[2020-07-18 16:36:31,633] {docker_operator.py:243} INFO - Ending Cell 15-----------------------------------------
+[2020-07-18 16:36:31,644] {docker_operator.py:243} INFO - Executing Cell 16--------------------------------------
+[2020-07-18 16:36:31,656] {docker_operator.py:243} INFO - Ending Cell 16-----------------------------------------
+[2020-07-18 16:36:31,667] {docker_operator.py:243} INFO - Executing Cell 17--------------------------------------
+[2020-07-18 16:36:31,817] {docker_operator.py:243} INFO - Ending Cell 17-----------------------------------------
+[2020-07-18 16:36:32,258] {docker_operator.py:243} INFO - Traceback (most recent call last):
+  File "/usr/local/bin/papermill", line 8, in <module>
+    sys.exit(papermill())
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/papermill/cli.py", line 238, in papermill
+    execution_timeout=execution_timeout,
+  File "/usr/local/lib/python3.7/site-packages/papermill/execute.py", line 110, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/usr/local/lib/python3.7/site-packages/papermill/execute.py", line 222, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [7]":
+---------------------------------------------------------------------------
+OSError                                   Traceback (most recent call last)
+/usr/local/lib/python3.7/site-packages/pymysql/connections.py in connect(self, sock)
+    570                                 (self.host, self.port), self.connect_timeout,
+--> 571                                 **kwargs)
+    572                             break
+
+/usr/local/lib/python3.7/socket.py in create_connection(address, timeout, source_address)
+    727         try:
+--> 728             raise err
+    729         finally:
+
+/usr/local/lib/python3.7/socket.py in create_connection(address, timeout, source_address)
+    715                 sock.bind(source_address)
+--> 716             sock.connect(sa)
+    717             # Break explicitly a reference cycle
+
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+OperationalError                          Traceback (most recent call last)
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in _wrap_pool_connect(self, fn, connection)
+   2338         try:
+-> 2339             return fn()
+   2340         except dialect.dbapi.Error as e:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in unique_connection(self)
+    303         """
+--> 304         return _ConnectionFairy._checkout(self)
+    305 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in _checkout(cls, pool, threadconns, fairy)
+    777         if not fairy:
+--> 778             fairy = _ConnectionRecord.checkout(pool)
+    779 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in checkout(cls, pool)
+    494     def checkout(cls, pool):
+--> 495         rec = pool._do_get()
+    496         try:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py in _do_get(self)
+    139                 with util.safe_reraise():
+--> 140                     self._dec_overflow()
+    141         else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py in __exit__(self, type_, value, traceback)
+     68                 compat.raise_(
+---> 69                     exc_value, with_traceback=exc_tb,
+     70                 )
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py in raise_(***failed resolving arguments***)
+    177         try:
+--> 178             raise exception
+    179         finally:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py in _do_get(self)
+    136             try:
+--> 137                 return self._create_connection()
+    138             except:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in _create_connection(self)
+    308 
+--> 309         return _ConnectionRecord(self)
+    310 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __init__(self, pool, connect)
+    439         if connect:
+--> 440             self.__connect(first_connect_check=True)
+    441         self.finalize_callback = deque()
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __connect(self, first_connect_check)
+    660             with util.safe_reraise():
+--> 661                 pool.logger.debug("Error on connect(): %s", e)
+    662         else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py in __exit__(self, type_, value, traceback)
+     68                 compat.raise_(
+---> 69                     exc_value, with_traceback=exc_tb,
+     70                 )
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py in raise_(***failed resolving arguments***)
+    177         try:
+--> 178             raise exception
+    179         finally:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __connect(self, first_connect_check)
+    655             self.starttime = time.time()
+--> 656             connection = pool._invoke_creator(self)
+    657             pool.logger.debug("Created new connection %r", connection)
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py in connect(connection_record)
+    113                             return connection
+--> 114                 return dialect.connect(*cargs, **cparams)
+    115 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/default.py in connect(self, *cargs, **cparams)
+    492         # inherits the docstring from interfaces.Dialect.connect
+--> 493         return self.dbapi.connect(*cargs, **cparams)
+    494 
+
+/usr/local/lib/python3.7/site-packages/pymysql/__init__.py in Connect(*args, **kwargs)
+     93     from .connections import Connection
+---> 94     return Connection(*args, **kwargs)
+     95 
+
+/usr/local/lib/python3.7/site-packages/pymysql/connections.py in __init__(self, host, user, password, database, port, unix_socket, charset, sql_mode, read_default_file, conv, use_unicode, client_flag, cursorclass, init_command, connect_timeout, ssl, read_default_group, compress, named_pipe, autocommit, db, passwd, local_infile, max_allowed_packet, defer_connect, auth_plugin_map, read_timeout, write_timeout, bind_address, binary_prefix, program_name, server_public_key)
+    326         else:
+--> 327             self.connect()
+    328 
+
+/usr/local/lib/python3.7/site-packages/pymysql/connections.py in connect(self, sock)
+    618                 if DEBUG: print(exc.traceback)
+--> 619                 raise exc
+    620 
+
+OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
+
+The above exception was the direct cause of the following exception:
+
+OperationalError                          Traceback (most recent call last)
+<ipython-input-7-045925b66b1b> in <module>
+----> 1 with engine.connect() as conn:
+      2 # pull metadata of a table
+      3     metadata = db.MetaData(bind=engine)
+      4     metadata.reflect(only=['test_table'])
+      5 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in connect(self, **kwargs)
+   2264         """
+   2265 
+-> 2266         return self._connection_cls(self, **kwargs)
+   2267 
+   2268     @util.deprecated(
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in __init__(self, engine, connection, close_with_result, _branch_from, _execution_options, _dispatch, _has_events)
+    102                 connection
+    103                 if connection is not None
+--> 104                 else engine.raw_connection()
+    105             )
+    106             self.__transaction = None
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in raw_connection(self, _connection)
+   2371         """
+   2372         return self._wrap_pool_connect(
+-> 2373             self.pool.unique_connection, _connection
+   2374         )
+   2375 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in _wrap_pool_connect(self, fn, connection)
+   2341             if connection is None:
+   2342                 Connection._handle_dbapi_exception_noconnection(
+-> 2343                     e, dialect, self
+   2344
+[2020-07-18 16:36:32,258] {docker_operator.py:243} INFO - )
+   2345             else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in _handle_dbapi_exception_noconnection(cls, e, dialect, engine)
+   1583         elif should_wrap:
+   1584             util.raise_(
+-> 1585                 sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+   1586             )
+   1587         else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py in raise_(***failed resolving arguments***)
+    176 
+    177         try:
+--> 178             raise exception
+    179         finally:
+    180             # credit to
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/base.py in _wrap_pool_connect(self, fn, connection)
+   2337         dialect = self.dialect
+   2338         try:
+-> 2339             return fn()
+   2340         except dialect.dbapi.Error as e:
+   2341             if connection is None:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in unique_connection(self)
+    302 
+    303         """
+--> 304         return _ConnectionFairy._checkout(self)
+    305 
+    306     def _create_connection(self):
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in _checkout(cls, pool, threadconns, fairy)
+    776     def _checkout(cls, pool, threadconns=None, fairy=None):
+    777         if not fairy:
+--> 778             fairy = _ConnectionRecord.checkout(pool)
+    779 
+    780             fairy._pool = pool
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in checkout(cls, pool)
+    493     @classmethod
+    494     def checkout(cls, pool):
+--> 495         rec = pool._do_get()
+    496         try:
+    497             dbapi_connection = rec.get_connection()
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py in _do_get(self)
+    138             except:
+    139                 with util.safe_reraise():
+--> 140                     self._dec_overflow()
+    141         else:
+    142             return self._do_get()
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py in __exit__(self, type_, value, traceback)
+     67             if not self.warn_only:
+     68                 compat.raise_(
+---> 69                     exc_value, with_traceback=exc_tb,
+     70                 )
+     71         else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py in raise_(***failed resolving arguments***)
+    176 
+    177         try:
+--> 178             raise exception
+    179         finally:
+    180             # credit to
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py in _do_get(self)
+    135         if self._inc_overflow():
+    136             try:
+--> 137                 return self._create_connection()
+    138             except:
+    139                 with util.safe_reraise():
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in _create_connection(self)
+    307         """Called by subclasses to create a new ConnectionRecord."""
+    308 
+--> 309         return _ConnectionRecord(self)
+    310 
+    311     def _invalidate(self, connection, exception=None, _checkin=True):
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __init__(self, pool, connect)
+    438         self.__pool = pool
+    439         if connect:
+--> 440             self.__connect(first_connect_check=True)
+    441         self.finalize_callback = deque()
+    442 
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __connect(self, first_connect_check)
+    659         except Exception as e:
+    660             with util.safe_reraise():
+--> 661                 pool.logger.debug("Error on connect(): %s", e)
+    662         else:
+    663             if first_connect_check:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py in __exit__(self, type_, value, traceback)
+     67             if not self.warn_only:
+     68                 compat.raise_(
+---> 69                     exc_value, with_traceback=exc_tb,
+     70                 )
+     71         else:
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/util/compat.py in raise_(***failed resolving arguments***)
+    176 
+    177         try:
+--> 178             raise exception
+    179         finally:
+    180             # credit to
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/pool/base.py in __connect(self, first_connect_check)
+    654         try:
+    655             self.starttime = time.time()
+--> 656             connection = pool._invoke_creator(self)
+    657             pool.logger.debug("Created new connection %r", connection)
+    658             self.connection = connection
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/strategies.py in connect(connection_record)
+    112                         if connection is not None:
+    113                             return connection
+--> 114                 return dialect.connect(*cargs, **cparams)
+    115 
+    116             creator = pop_kwarg("creator", connect)
+
+/usr/local/lib/python3.7/site-packages/sqlalchemy/engine/default.py in connect(self, *cargs, **cparams)
+    491     def connect(self, *cargs, **cparams):
+    492         # inherits the docstring from interfaces.Dialect.connect
+--> 493         return self.dbapi.connect(*cargs, **cparams)
+    494 
+    495     def create_connect_args(self, url):
+
+/usr/local/lib/python3.7/site-packages/pymysql/__init__.py in Connect(*args, **kwargs)
+     92     """
+     93     from .connections import Connection
+---> 94     return Connection(*args, **kwargs)
+     95 
+     96 from . import connections as _orig_conn
+
+/usr/local/lib/python3.7/site-packages/pymysql/connections.py in __init__(self, host, user, password, database, port, unix_socket, charset, sql_mode, read_default_file, conv, use_unicode, client_flag, cursorclass, init_command, connect_timeout, ssl, read_default_group, compress, named_pipe, autocommit, db, passwd, local_infile, max_allowed_packet, defer_connect, auth_plugin_map, read_timeout, write_timeout, bind_address, binary_prefix, program_name, server_public_key)
+    325             self._sock = None
+    326         else:
+--> 327             self.connect()
+    328 
+    329     def _create_ssl_ctx(self, sslp):
+
+/usr/local/lib/python3.7/site-packages/pymysql/connections.py in connect(self, sock)
+    617                 exc.traceback = traceback.format_exc()
+    618                 if DEBUG: print(exc.traceback)
+--> 619                 raise exc
+    620 
+    621             # If e is neither DatabaseError or IOError, It's a bug.
+
+OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([Errno 99] Cannot assign requested address)")
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2020-07-18 16:36:32,497] {taskinstance.py:1150} ERROR - docker container failed: {'Error': None, 'StatusCode': 1}
+Traceback (most recent call last):
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/operators/docker_operator.py", line 277, in execute
+    return self._run_image()
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/operators/docker_operator.py", line 247, in _run_image
+    raise AirflowException('docker container failed: ' + repr(result))
+airflow.exceptions.AirflowException: docker container failed: {'Error': None, 'StatusCode': 1}
+[2020-07-18 16:36:32,499] {taskinstance.py:1194} INFO - Marking task as FAILED. dag_id=etl_preprocessing, task_id=raw-to-db_web, execution_date=20200718T203445, start_date=20200718T203629, end_date=20200718T203632
+[2020-07-18 16:36:32,507] {configuration.py:338} WARNING - section/key [smtp/smtp_user] not found in config
+[2020-07-18 16:36:32,509] {configuration.py:338} WARNING - section/key [smtp/smtp_user] not found in config
+[2020-07-18 16:36:32,510] {taskinstance.py:1200} ERROR - Failed to send email to: ['info@example.com']
+[2020-07-18 16:36:32,511] {taskinstance.py:1201} ERROR - [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/operators/docker_operator.py", line 277, in execute
+    return self._run_image()
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/operators/docker_operator.py", line 247, in _run_image
+    raise AirflowException('docker container failed: ' + repr(result))
+airflow.exceptions.AirflowException: docker container failed: {'Error': None, 'StatusCode': 1}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1473, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 62, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 108, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 127, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1198, in handle_failure
+    self.email_alert(error)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1475, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 62, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 108, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/site-packages/airflow/utils/email.py", line 127, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/Users/mendes/miniconda3/envs/venv-kensho/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2020-07-18 16:36:34,172] {local_task_job.py:102} INFO - Task exited with return code 1

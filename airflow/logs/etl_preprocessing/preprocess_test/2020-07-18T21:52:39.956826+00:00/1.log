@@ -1,0 +1,75 @@
+[2020-07-18 17:53:49,937] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.preprocess_test 2020-07-18T21:52:39.956826+00:00 [queued]>
+[2020-07-18 17:53:49,947] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: etl_preprocessing.preprocess_test 2020-07-18T21:52:39.956826+00:00 [queued]>
+[2020-07-18 17:53:49,947] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:53:49,947] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-07-18 17:53:49,947] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:53:49,952] {taskinstance.py:901} INFO - Executing <Task(DockerOperator): preprocess_test> on 2020-07-18T21:52:39.956826+00:00
+[2020-07-18 17:53:49,954] {standard_task_runner.py:54} INFO - Started process 48432 to run task
+[2020-07-18 17:53:49,980] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'etl_preprocessing', 'preprocess_test', '2020-07-18T21:52:39.956826+00:00', '--job_id', '74', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/elt_preprocessing.py', '--cfg_path', '/var/folders/00/80wjhvv115lcj4bckmhhb8x40000gn/T/tmp9pabyv6z']
+[2020-07-18 17:53:49,981] {standard_task_runner.py:78} INFO - Job 74: Subtask preprocess_test
+[2020-07-18 17:53:50,005] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: etl_preprocessing.preprocess_test 2020-07-18T21:52:39.956826+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-07-18 17:53:50,142] {docker_operator.py:210} INFO - Starting docker container from image feature_selection_web:latest
+[2020-07-18 17:53:50,755] {docker_operator.py:243} INFO - Input Notebook:  notebooks/feature_selection.ipynb
+Output Notebook: notebooks/output/code_exec_111111.ipynb
+[2020-07-18 17:53:51,649] {docker_operator.py:243} INFO - Executing notebook with kernel: venv-kensho-feature-selection
+Executing Cell 1---------------------------------------
+[2020-07-18 17:53:51,675] {docker_operator.py:243} INFO - Ending Cell 1------------------------------------------
+[2020-07-18 17:53:51,687] {docker_operator.py:243} INFO - Executing Cell 2---------------------------------------
+[2020-07-18 17:53:51,707] {docker_operator.py:243} INFO - name of the variable:docker.for.mac.host.internal
+[2020-07-18 17:53:51,710] {docker_operator.py:243} INFO - Ending Cell 2------------------------------------------
+[2020-07-18 17:53:51,723] {docker_operator.py:243} INFO - Executing Cell 3---------------------------------------
+[2020-07-18 17:53:51,736] {docker_operator.py:243} INFO - Ending Cell 3------------------------------------------
+[2020-07-18 17:53:51,748] {docker_operator.py:243} INFO - Executing Cell 4---------------------------------------
+[2020-07-18 17:53:51,773] {docker_operator.py:243} INFO - '/'
+[2020-07-18 17:53:51,777] {docker_operator.py:243} INFO - Ending Cell 4------------------------------------------
+[2020-07-18 17:53:51,791] {docker_operator.py:243} INFO - Executing Cell 5---------------------------------------
+[2020-07-18 17:53:51,805] {docker_operator.py:243} INFO - Ending Cell 5------------------------------------------
+[2020-07-18 17:53:51,818] {docker_operator.py:243} INFO - Executing Cell 6---------------------------------------
+[2020-07-18 17:53:51,832] {docker_operator.py:243} INFO - Ending Cell 6------------------------------------------
+[2020-07-18 17:53:51,845] {docker_operator.py:243} INFO - Executing Cell 7---------------------------------------
+[2020-07-18 17:53:52,521] {docker_operator.py:243} INFO - Ending Cell 7------------------------------------------
+[2020-07-18 17:53:52,536] {docker_operator.py:243} INFO - Executing Cell 8---------------------------------------
+[2020-07-18 17:53:52,549] {docker_operator.py:243} INFO - Ending Cell 8------------------------------------------
+[2020-07-18 17:53:52,563] {docker_operator.py:243} INFO - Executing Cell 9---------------------------------------
+[2020-07-18 17:53:52,590] {docker_operator.py:243} INFO - Ending Cell 9------------------------------------------
+[2020-07-18 17:53:52,604] {docker_operator.py:243} INFO - Executing Cell 10--------------------------------------
+[2020-07-18 17:53:52,617] {docker_operator.py:243} INFO - Ending Cell 10-----------------------------------------
+[2020-07-18 17:53:52,631] {docker_operator.py:243} INFO - Executing Cell 11--------------------------------------
+[2020-07-18 17:53:53,144] {docker_operator.py:243} INFO - docker.for.mac.host.internal
+[2020-07-18 17:53:53,250] {docker_operator.py:243} INFO - Ending Cell 11-----------------------------------------
+[2020-07-18 17:53:53,264] {docker_operator.py:243} INFO - Executing Cell 12--------------------------------------
+[2020-07-18 17:53:53,278] {docker_operator.py:243} INFO - Ending Cell 12-----------------------------------------
+[2020-07-18 17:53:53,292] {docker_operator.py:243} INFO - Executing Cell 13--------------------------------------
+[2020-07-18 17:53:53,335] {docker_operator.py:243} INFO - name of the variable inside function:docker.for.mac.host.internal
+[2020-07-18 17:53:53,337] {docker_operator.py:243} INFO - Ending Cell 13-----------------------------------------
+[2020-07-18 17:53:53,351] {docker_operator.py:243} INFO - Executing Cell 14--------------------------------------
+[2020-07-18 17:53:53,366] {docker_operator.py:243} INFO - Ending Cell 14-----------------------------------------
+[2020-07-18 17:53:53,381] {docker_operator.py:243} INFO - Executing Cell 15--------------------------------------
+[2020-07-18 17:53:53,447] {docker_operator.py:243} INFO - Ending Cell 15-----------------------------------------
+[2020-07-18 17:53:53,462] {docker_operator.py:243} INFO - Executing Cell 16--------------------------------------
+[2020-07-18 17:53:53,486] {docker_operator.py:243} INFO - Ending Cell 16-----------------------------------------
+[2020-07-18 17:53:53,501] {docker_operator.py:243} INFO - Executing Cell 17--------------------------------------
+[2020-07-18 17:53:53,527] {docker_operator.py:243} INFO - THIS IS THE:///notebooks/
+[2020-07-18 17:53:53,530] {docker_operator.py:243} INFO - Ending Cell 17-----------------------------------------
+[2020-07-18 17:53:53,545] {docker_operator.py:243} INFO - Executing Cell 18--------------------------------------
+[2020-07-18 17:53:53,566] {docker_operator.py:243} INFO - '///notebooks/'
+[2020-07-18 17:53:53,570] {docker_operator.py:243} INFO - Ending Cell 18-----------------------------------------
+[2020-07-18 17:53:53,585] {docker_operator.py:243} INFO - Executing Cell 19--------------------------------------
+[2020-07-18 17:53:54,101] {docker_operator.py:243} INFO - feature_selection.ipynb  label_encoder.p  [0m[01;34moutput[0m/
+[2020-07-18 17:53:54,206] {docker_operator.py:243} INFO - Ending Cell 19-----------------------------------------
+[2020-07-18 17:53:54,223] {docker_operator.py:243} INFO - Executing Cell 20--------------------------------------
+[2020-07-18 17:53:54,311] {docker_operator.py:243} INFO - Ending Cell 20-----------------------------------------
+[2020-07-18 17:53:54,328] {docker_operator.py:243} INFO - Executing Cell 21--------------------------------------
+[2020-07-18 17:53:54,350] {docker_operator.py:243} INFO - worked feature selection using . test
+[2020-07-18 17:53:54,353] {docker_operator.py:243} INFO - Ending Cell 21-----------------------------------------
+[2020-07-18 17:53:54,371] {docker_operator.py:243} INFO - Executing Cell 22--------------------------------------
+[2020-07-18 17:53:54,399] {docker_operator.py:243} INFO - Empty DataFrame
+Columns: [sepal_length, sepal_width, petal_length, petal_width, label]
+Index: []
+[2020-07-18 17:53:54,402] {docker_operator.py:243} INFO - Ending Cell 22-----------------------------------------
+[2020-07-18 17:53:54,419] {docker_operator.py:243} INFO - Executing Cell 23--------------------------------------
+[2020-07-18 17:53:54,436] {docker_operator.py:243} INFO - Ending Cell 23-----------------------------------------
+[2020-07-18 17:53:55,045] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=etl_preprocessing, task_id=preprocess_test, execution_date=20200718T215239, start_date=20200718T215349, end_date=20200718T215355
+[2020-07-18 17:53:59,937] {local_task_job.py:102} INFO - Task exited with return code 0

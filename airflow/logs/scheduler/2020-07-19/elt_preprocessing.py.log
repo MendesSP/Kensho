@@ -1,0 +1,85 @@
+[2020-07-18 20:00:01,401] {scheduler_job.py:155} INFO - Started process (PID=58295) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:01,406] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:00:01,408] {logging_mixin.py:112} INFO - [2020-07-18 20:00:01,407] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:01,447] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:01,469] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:00:01,489] {scheduler_job.py:1297} INFO - Created <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:00:01,492] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:00:01,601] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:00:01,604] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.start 2020-07-18 00:00:00+00:00 [success]> in ORM
+[2020-07-18 20:00:01,613] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.212 seconds
+[2020-07-18 20:00:55,527] {scheduler_job.py:155} INFO - Started process (PID=58382) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:55,534] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:00:55,535] {logging_mixin.py:112} INFO - [2020-07-18 20:00:55,535] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:55,574] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:00:55,594] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:00:55,603] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:00:55,706] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:00:55,710] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.raw-to-db_web 2020-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-18 20:00:55,718] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.191 seconds
+[2020-07-18 20:01:55,343] {scheduler_job.py:155} INFO - Started process (PID=58472) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:01:55,350] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:01:55,351] {logging_mixin.py:112} INFO - [2020-07-18 20:01:55,351] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:01:55,389] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:01:55,410] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:01:55,418] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:01:55,512] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:01:55,515] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.split-data_web 2020-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-18 20:01:55,523] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.179 seconds
+[2020-07-18 20:02:55,026] {scheduler_job.py:155} INFO - Started process (PID=58550) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:02:55,031] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:02:55,032] {logging_mixin.py:112} INFO - [2020-07-18 20:02:55,032] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:02:55,071] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:02:55,089] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:02:55,098] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:02:55,188] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:02:55,191] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.preprocess_train 2020-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-18 20:02:55,199] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.174 seconds
+[2020-07-18 20:03:59,653] {scheduler_job.py:155} INFO - Started process (PID=58651) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:03:59,659] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:03:59,660] {logging_mixin.py:112} INFO - [2020-07-18 20:03:59,659] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:03:59,701] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:03:59,721] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:03:59,731] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:03:59,832] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:03:59,835] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.preprocess_test 2020-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-18 20:03:59,842] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.190 seconds
+[2020-07-18 20:05:04,335] {scheduler_job.py:155} INFO - Started process (PID=58731) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:05:04,342] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:05:04,343] {logging_mixin.py:112} INFO - [2020-07-18 20:05:04,343] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:05:04,379] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:05:04,399] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:05:04,408] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:05:04,495] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:05:04,498] {scheduler_job.py:1650} INFO - Creating / updating <TaskInstance: etl_preprocessing.train 2020-07-18 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-18 20:05:04,505] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.171 seconds
+[2020-07-18 20:06:03,950] {scheduler_job.py:155} INFO - Started process (PID=58802) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:03,957] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:06:03,958] {logging_mixin.py:112} INFO - [2020-07-18 20:06:03,957] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:03,995] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:04,018] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:06:04,026] {scheduler_job.py:766} INFO - Examining DAG run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False>
+[2020-07-18 20:06:04,100] {logging_mixin.py:112} INFO - [2020-07-18 20:06:04,100] {dagrun.py:319} INFO - Marking run <DagRun etl_preprocessing @ 2020-07-18 00:00:00+00:00: scheduled__2020-07-18T00:00:00+00:00, externally triggered: False> successful
+[2020-07-18 20:06:04,105] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:06:04,107] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.158 seconds
+[2020-07-18 20:06:58,048] {scheduler_job.py:155} INFO - Started process (PID=58875) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:58,056] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:06:58,057] {logging_mixin.py:112} INFO - [2020-07-18 20:06:58,057] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:58,095] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:06:58,116] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:06:58,127] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:06:58,130] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.082 seconds
+[2020-07-18 20:07:52,144] {scheduler_job.py:155} INFO - Started process (PID=58947) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:07:52,151] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:07:52,152] {logging_mixin.py:112} INFO - [2020-07-18 20:07:52,152] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:07:52,188] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:07:52,211] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:07:52,219] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:07:52,222] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.078 seconds
+[2020-07-18 20:08:46,229] {scheduler_job.py:155} INFO - Started process (PID=59016) to work on /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:08:46,237] {scheduler_job.py:1571} INFO - Processing file /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py for tasks to queue
+[2020-07-18 20:08:46,238] {logging_mixin.py:112} INFO - [2020-07-18 20:08:46,237] {dagbag.py:396} INFO - Filling up the DagBag from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:08:46,309] {scheduler_job.py:1583} INFO - DAG(s) dict_keys(['etl_preprocessing']) retrieved from /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py
+[2020-07-18 20:08:46,340] {scheduler_job.py:1287} INFO - Processing etl_preprocessing
+[2020-07-18 20:08:46,418] {scheduler_job.py:454} INFO - Skipping SLA check for <DAG: etl_preprocessing> because no tasks in DAG have SLAs
+[2020-07-18 20:08:46,421] {scheduler_job.py:163} INFO - Processing /Users/mendes/tech_interview/Kensho/airflow/dags/elt_preprocessing.py took 0.192 seconds
