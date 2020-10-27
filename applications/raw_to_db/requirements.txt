@@ -1,5 +1,5 @@
 mysqlclient==2.0.1
-cryptography==2.9.2
+cryptography==3.2
 ansiwrap==0.8.4
 appdirs==1.4.4
 appnope==0.1.0
